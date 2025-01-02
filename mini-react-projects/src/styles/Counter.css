@@ -1,0 +1,37 @@
+.counter-card {
+  width: 30%;
+  height: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.counter-display {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: linear-gradient(180deg, #f7f200, #f7e700);
+  border-radius: 0.5rem;
+}
+
+.counter-btns {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.counter-btns button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: black;
+  cursor: pointer;
+}

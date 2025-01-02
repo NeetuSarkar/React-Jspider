@@ -1,0 +1,28 @@
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img {
+  height: 60%;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-details {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

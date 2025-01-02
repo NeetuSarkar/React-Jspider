@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(29, 28, 28);
+  color: white;
+  padding: 10px 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-right h4 {
+  cursor: pointer;
+}
+
+.nav-right h4:hover {
+  color: whitesmoke;
+}
