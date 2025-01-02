@@ -1,0 +1,42 @@
+# React Training Course - JSPIDER Marathahalli, Bangalore
+
+Welcome to my React learning repository! This repository contains all the code examples, projects, and exercises that I have worked on during my React training at JSPIDER Institute in Marathahalli, Bangalore.
+
+## Course Overview
+
+This course is designed to provide hands-on experience in building modern web applications using **React.js**. Throughout the course, I will be learning key React concepts, including but not limited to:
+
+- **JSX** (JavaScript XML)
+- **Components** (Functional & Class-based)
+- **State & Props**
+- **Event Handling**
+- **React Router**
+- **State Management** (Context API, Redux)
+- **React Hooks** (useState, useEffect, etc.)
+- **React Lifecycle Methods**
+- **Handling Forms**
+- **Handling API Requests**
+- **Building a Full-Stack Application with React**
+
+## Learning Journey
+
+I will be uploading code snippets, projects, and exercises completed during each class session, organized by topics covered.
+
+### Topics Covered So Far
+
+- **Introduction to React**
+- **Creating a React App**
+- **Understanding JSX**
+- **Components in React (Functional & Class)**
+- **State and Props**
+- **Event Handling in React**
+- **React Router for Navigation**
+- **Managing State using Context API**
+- **Using React Hooks (useState, useEffect)**
+- **Forms in React**
+- **Making API calls with React**
+
+## Folder Structure
+
+Here is the general structure of this repository:
+
