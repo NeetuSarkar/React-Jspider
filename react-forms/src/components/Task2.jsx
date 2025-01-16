@@ -4,7 +4,8 @@ const Task2 = () => {
   const [text, setText] = useState("");
 
   return (
-    <div>
+    <div className="display">
+      <h2>Task 2</h2>
       <textarea
         name=""
         id=""
@@ -17,7 +18,7 @@ const Task2 = () => {
       ></textarea>
       <h3>no of Chars: {text.length}</h3>
       <h3>No of Words: {text.split(" ").filter((e) => e != "").length}</h3>
-      <div>
+      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <button onClick={() => setText("")}>Clear</button>
         <button onClick={() => setText(text.toUpperCase())}>Uppercase</button>
         <button

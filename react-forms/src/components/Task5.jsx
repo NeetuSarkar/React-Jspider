@@ -28,15 +28,17 @@ const Task5 = () => {
   }
   return (
     <div
+      className="display"
       style={{
         display: "flex",
         flexDirection: "column",
-        gap: "1rem",
         justifyContent: "center",
         alignItems: "center",
+        gap: "1.5rem",
       }}
     >
-      <h3>List of People</h3>
+      <h2>Task 5</h2>
+      <h2>List of People</h2>
       <ul
         style={{
           display: "flex",

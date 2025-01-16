@@ -17,38 +17,46 @@ const Task3 = () => {
   }
 
   return (
-    <div>
-      <label htmlFor="red">Red</label>
-      <input
-        id="red"
-        min="0"
-        max="255"
-        type="number"
-        placeholder="0-255"
-        value={red}
-        onChange={(e) => setRed(e.target.value)}
-      />
-      <label htmlFor="green">Green</label>
-      <input
-        id="green"
-        min="0"
-        max="255"
-        type="number"
-        placeholder="0-255"
-        value={green}
-        onChange={(e) => setGreen(e.target.value)}
-      />
-      <label htmlFor="blue">Blue</label>
-      <input
-        id="blue"
-        min="0"
-        max="255"
-        type="number"
-        placeholder="0-255"
-        value={blue}
-        onChange={(e) => setBlue(e.target.value)}
-      />
-      <button onClick={generate}>Generate</button>
+    <div
+      className="display"
+      style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}
+    >
+      <h2>Task 3</h2>
+      <div>
+        <label htmlFor="red">Red</label>
+        <input
+          id="red"
+          min="0"
+          max="255"
+          type="number"
+          placeholder="0-255"
+          value={red}
+          onChange={(e) => setRed(e.target.value)}
+        />
+        <label htmlFor="green">Green</label>
+        <input
+          id="green"
+          min="0"
+          max="255"
+          type="number"
+          placeholder="0-255"
+          value={green}
+          onChange={(e) => setGreen(e.target.value)}
+        />
+        <label htmlFor="blue">Blue</label>
+        <input
+          id="blue"
+          min="0"
+          max="255"
+          type="number"
+          placeholder="0-255"
+          value={blue}
+          onChange={(e) => setBlue(e.target.value)}
+        />
+      </div>
+      <button style={{ display: "block" }} onClick={generate}>
+        Generate
+      </button>
       <div
         style={{
           width: "400px",

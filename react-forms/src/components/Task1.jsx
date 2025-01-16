@@ -7,14 +7,16 @@ const Task1 = () => {
     setColor(event.target.value);
   }
   return (
-    <div>
+    <div className="display">
+      <h2>Task 1</h2>
       <div
         style={{
-          height: "300px",
-          width: "400px",
+          height: "200px",
+          width: "auto",
           alignContent: "center",
           textAlign: "center",
           background: color,
+          borderRadius: "1rem",
         }}
       >
         <input
