@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NeetuSarkar.github.io/react-e7/todo-app",
-
-  "scripts":{
+  "homepage": "https://NeetuSarkar.github.io/React-Jspider/todo-app",
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
