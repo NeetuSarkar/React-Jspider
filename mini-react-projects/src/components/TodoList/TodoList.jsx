@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import "./App.css";
-import Navbar from "./components/Navbar";
 
-const App = () => {
+import "./TodoList.css";
+
+const TodoList = () => {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
   const [toggle, setToggle] = useState(true);
   const [editIndex, setEditIndex] = useState(null);
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Function to add a new todo item
   function addTodo() {
@@ -25,7 +24,7 @@ const App = () => {
     setTodos(updatedTodos);
   }
 
-  // Function to update todo
+  //function to update todo
   function updateTodo(index) {
     setToggle(false);
     const task = todos[index];
@@ -33,7 +32,7 @@ const App = () => {
     setEditIndex(index);
   }
 
-  // Function to add the updated todo
+  //function to add the updated todo
   function updateTodoList() {
     if (todo.trim() !== "") {
       const updatedTodos = [...todos];
@@ -46,14 +45,13 @@ const App = () => {
   }
 
   return (
-    <div className={isDarkMode ? "container dark" : "container"}>
-      {/* Pass the correct props */}
-      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+    <div className="container">
+      <h2>ToDoList</h2>
 
       <div className="taskInput">
         <input
           type="text"
-          placeholder="Enter Your Task Here...."
+          placeholder="Enter Task"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
         />
@@ -67,7 +65,7 @@ const App = () => {
       <ul className="todos">
         {todos.map((task, index) => (
           <li className="todo" key={index}>
-            <span>{task}</span>
+            {task}
             <div className="button-div">
               <button>
                 <FontAwesomeIcon
@@ -88,4 +86,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default TodoList;

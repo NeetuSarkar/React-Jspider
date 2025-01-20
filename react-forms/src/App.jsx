@@ -6,6 +6,7 @@ import Task4 from "./components/Task4";
 import Task5 from "./components/Task5";
 import Task6 from "./components/Task6";
 import Task7 from "./components/Task7";
+import Task8 from "./components/Task8";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Task5 />
       <Task6 />
       <Task7 />
+      <Task8 />
     </div>
   );
 }

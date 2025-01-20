@@ -7,12 +7,18 @@
 
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 93vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+/* .display {
+  background-color: #ff9393;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+} */
 
 .project-cards {
   padding: 1rem;

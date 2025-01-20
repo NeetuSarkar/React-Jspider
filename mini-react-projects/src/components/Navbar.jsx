@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 import ToggleButton from "./ToggleButton";
 const Navbar = ({ onProjectsClick }) => {
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ height: "7vh" }}>
       <div className="nav-left">
         <h3>Mini Projects</h3>
       </div>

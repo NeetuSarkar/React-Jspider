@@ -1,0 +1,70 @@
+.container {
+  /* padding: 1.5rem; */
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskInput {
+  border: 1px solid black;
+  display: flex;
+}
+
+.taskInput input {
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.taskInput button {
+  width: 20%;
+  border-radius: 0;
+  background-color: rgb(75, 159, 227);
+  color: white;
+}
+
+.taskInput button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(75, 159, 227, 0.7);
+}
+
+.taskInput button:hover {
+  background-color: rgb(55, 140, 200);
+}
+
+.todos {
+  list-style-type: none;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.todo {
+  text-align: start;
+  min-width: 400px;
+  background-color: rgb(32, 46, 50);
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  text-align: left; /* Ensure content aligns to the left */
+}
+
+.todo .button-div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.todo .button-div button {
+  padding: 2px 5px;
+  border: none;
+}
